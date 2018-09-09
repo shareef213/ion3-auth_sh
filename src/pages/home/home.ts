@@ -29,6 +29,7 @@ export class HomePage {
     this.data.subscribe(resp => {
       this.notic = resp.message;
     }, error => this.error = error);
+    //this.navCtrl.setRoot(Homepate);
   }
 
   gotoSignup() {
